@@ -1,8 +1,8 @@
 // src/pages/Analytics.tsx
 import React from 'react';
 import { useApp } from '@/contexts/AppContext';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/UI/card';
+import { Badge } from '@/components/UI/badge';
 import { Activity, Zap, BookOpen, Clock } from 'lucide-react';
 
 const Analytics: React.FC = () => {

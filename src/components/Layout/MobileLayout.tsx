@@ -6,7 +6,7 @@ import { Menu, Bell, Search } from 'lucide-react';
 
 import DrawerMenu from '@/components/Navigation/DrawerMenu';
 import TabNavigation from '@/components/Navigation/TabNavigation';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/UI/button';
 import { useAuth } from '@/contexts/AuthContext';
 
 interface MobileLayoutProps {

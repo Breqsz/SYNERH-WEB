@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Home, Zap, BookOpen, User, Bot } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/UI/button';
 
 const TabNavigation: React.FC = () => {
   const navigate = useNavigate();

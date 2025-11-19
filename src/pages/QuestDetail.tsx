@@ -2,9 +2,9 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useApp } from '@/contexts/AppContext';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/UI/card';
+import { Badge } from '@/components/UI/badge';
+import { Button } from '@/components/UI/button';
 import { ArrowLeft, Building2, Clock, Zap, Sparkles } from 'lucide-react';
 
 const QuestDetail: React.FC = () => {

@@ -1,6 +1,6 @@
 // src/pages/Privacy.tsx
 import React from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/UI/card';
 
 const Privacy: React.FC = () => {
   return (

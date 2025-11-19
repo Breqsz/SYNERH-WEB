@@ -1,8 +1,8 @@
 // src/pages/Achievements.tsx
 import React from 'react';
 import { Trophy, Star, Target, Sparkles } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/UI/card';
+import { Badge } from '@/components/UI/badge';
 
 const Achievements: React.FC = () => {
   const badges = [

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/UI/button';
+import { Card, CardContent } from '@/components/UI/card';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { ONBOARDING_SLIDES } from '@/utils/constants';
 

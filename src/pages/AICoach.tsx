@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/UI/button';
+import { Input } from '@/components/UI/input';
+import { Card, CardContent } from '@/components/UI/card';
+import { Badge } from '@/components/UI/badge';
 import { aiService } from '@/services/aiService';
 import { Send, Bot, User, Loader2, Lightbulb, Target, BookOpen, Zap } from 'lucide-react';
 

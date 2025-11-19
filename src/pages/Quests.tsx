@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useApp } from '@/contexts/AppContext';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/UI/button';
+import { Input } from '@/components/UI/input';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/UI/select';
+import { Badge } from '@/components/UI/badge';
 import QuestCard from '@/components/UI/QuestCard';
 import { Search, Filter, SlidersHorizontal } from 'lucide-react';
 import { CATEGORIES } from '@/utils/constants';

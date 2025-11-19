@@ -2,11 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Button } from '@/components/UI/button';
+import { Input } from '@/components/UI/input';
+import { Label } from '@/components/UI/label';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/UI/card';
+import { Alert, AlertDescription } from '@/components/UI/alert';
 import { Eye, EyeOff, Mail, Lock, Loader2 } from 'lucide-react';
 
 const Login: React.FC = () => {

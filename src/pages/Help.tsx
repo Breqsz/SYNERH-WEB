@@ -1,7 +1,7 @@
 // src/pages/Help.tsx
 import React from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/UI/card';
+import { Button } from '@/components/UI/button';
 import { HelpCircle, Mail, MessageCircle } from 'lucide-react';
 
 const Help: React.FC = () => {

@@ -2,9 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
 import { useApp } from '@/contexts/AppContext';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/UI/card';
+import { Button } from '@/components/UI/button';
+import { Badge } from '@/components/UI/badge';
 import QuestCard from '@/components/UI/QuestCard';
 import CourseCard from '@/components/UI/CourseCard';
 import { 

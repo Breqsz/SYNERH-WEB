@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { useApp } from '@/contexts/AppContext';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/UI/button';
+import { Input } from '@/components/UI/input';
+import { Label } from '@/components/UI/label';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/UI/card';
 import { Switch } from '@/components/UI/switch';
-import { Alert, AlertDescription } from '@/components/ui/alert';
+import { Alert, AlertDescription } from '@/components/UI/alert';
 import { 
   Moon, 
   Sun, 
